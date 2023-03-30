@@ -76,6 +76,7 @@ nav a:hover {
   color: #F9F9F9;
   font-size: 19px;
   box-shadow: 3px 3px 0 0  #6d0101; 
+  cursor:pointer
 }
 
 /* Estilos das seções */
