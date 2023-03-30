@@ -1,0 +1,299 @@
+*{box-sizing: content-box;
+margin:0;}
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos do cabeçalho */
+
+header {
+  background-color: #F9F9F9;
+  padding: 19.5px;
+  text-align: center;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.295);
+  position:relative;
+  width: 97.9%;
+}
+
+.index2 {
+  background-color: rgb(93, 145, 93);
+  font-size: 20.5px;
+  color: whitesmoke;
+  box-shadow: 5px 6px 0 0  rgb(86, 141, 86);  
+
+}
+
+.index2:hover {
+  background-color: #640202;
+  font-size: 20.5px;
+  color: whitesmoke;
+  box-shadow: 2px 3px 0 0  #6d0101; 
+}
+
+header h1 {
+  margin: 0;
+  font-size: 48px;
+  color: #333;
+}
+
+nav ul {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  font-weight: bold;
+  font-size: 18px;
+  color: #333;
+  padding: 10px;
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+  
+}
+
+nav a:hover {
+  background-color: #640202;
+  color: #F9F9F9;
+  font-size: 19px;
+  box-shadow: 3px 3px 0 0  #6d0101; 
+}
+
+/* Estilos das seções */
+fieldset { margin-top: 15%;
+  padding: 5%;
+  width: 100%;
+}
+
+legend {
+  font-size: 27px;
+}
+
+
+.barra {
+  background-color: #bdbdbd;
+  padding: 20px;
+  width: 200px;
+  float: left;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.barra:hover {
+  width: 201px;
+  padding: 21px;
+  box-shadow: 3px 3px 0 0 #999999;
+}
+
+.barra p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* Estilos para a foto */
+.profile {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 60%;
+  object-fit: contain;
+
+}
+
+main {
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+section u a {
+  color: rgb(0, 0, 255);
+}
+
+section {
+  margin-bottom: 1px;
+}
+
+section h2 {
+  margin: auto;
+  padding: 10px;
+  width: 100px;
+  font-size: 36px;
+  color: #000000;
+  margin-bottom: 1px;
+}
+
+section p {
+  font-size: 19px;
+}
+
+section img {
+  width: 30px;
+  height: 30px;
+}
+
+.ficha {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.aba {
+  border-bottom: #000000;
+  border-radius: 10px 10px 0 0;
+  background-color: #eee;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  width:90% ;
+  height:85%;
+  cursor: pointer;
+}
+.aba a{width: 300px;}
+
+#index2 {
+  border: 1px solid black;
+  border-radius: 10px 10px 0 0;
+  border-bottom: #000000;
+}
+#ativo { border: 1px solid black ;
+  background-color: rgb(131, 180, 131);
+  font-size: 27px;
+  color: whitesmoke;
+  border-bottom: #000000 ;
+}
+
+.aba:hover,
+.aba:focus {
+  background-color: #2250e6;
+  color: #e2e2e2;
+}
+
+.aba a {
+  color: #000000;
+  text-decoration: none;
+border: 40px;
+}
+.aba_atv a { color: whitesmoke;
+text-decoration: none;
+}
+
+.aba:hover a,
+.aba:focus a {
+  color: #ffffff;
+  text-decoration: none; 
+}
+#index2:hover {border: 3px solid  rgb(72, 255, 0);}
+#ativo:hover {border: 3px solid rgb(72, 255, 0); border-bottom: black;}
+
+.aba:active {
+  border-color: #030000;
+  background-color: #437dd3;
+}
+#contato { margin-top: 7%; 
+  margin-left: 27%;
+margin-right: 30% ;
+text-align: center;}
+
+footer {
+  background-color: #adadad;
+  padding: 15px;
+  text-align: center;
+  color: #bb0202;
+}
+
+footer {
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  position: fixed;
+  bottom:0;
+  width: 100%;
+  height: 30px;
+  position: fixed;
+}
+
+footer a:hover {
+  color: #640202;
+}
+
+footer img {
+  width: 30px;
+  height: 30px;
+}
+
+footer img:hover {
+  width: 34px;
+  height: 34px;
+}
+.entertolink img:hover {
+  width: 34px;
+  height: 33px;
+}
+
+@media only screen and (max-width: 768px) {
+  header {
+    width: 100%;
+  }
+  
+  nav ul {
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+  
+  nav li {
+    width: 50%;
+    margin: 5px 0;
+    text-align: center;
+  }
+  
+  .profile {
+    width: 150px;
+    height: 150px;
+  }
+  
+  main {
+    padding: 5px;
+  }
+  
+  section h2 {
+    font-size: 24px;
+  }
+  
+  .aba {
+    width: 100%;
+    height: auto;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  
+  .aba a {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  #index2 {
+    border-radius: 0;
+  }
+}
